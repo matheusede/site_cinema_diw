@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Gamaar: Filmes e Noticías.</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/639a3ddda3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <!--Inicío cabecçario-->
+    <header class="container-fluid header">
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+                    <img class="navbar-brand" src="imagens/logo_site.png" alt="">
+                    <!--Logo do site-->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                                <!--Início das opções da barra-->
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Lançamentos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Em destaque</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Últimas avaliações</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Entrevistas e Making Offs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Novidades</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Sobre</a>
+                                <!--Fim das opções da barra-->
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0 botao_pesquisa"
+                                type="submit">Buscar</button>
+                        </form>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+
+    <!--Fim do cabeçario-->
+
+    <!--Inicío conteúdo principal-->
+
+    <main class="main">
+        <!--inicio titulo carrossel-->
+        <div class="container-fluid titulo_lancamentos">
+
+            <div class="row titulo_titulo">
+
+                <div class="col-12 col-sm-12 com-md-12 com-lg-12 tiutlo">
+
+                    <h1>Lançamentos</h1>
+
+                </div>
+
+            </div>
+
+        </div>
+        <!--Fim titulo carrossel-->
+
+        <!--Inicio do carrossel-->
+        <div class="container-fluid carrossel_lancamentos">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 com-lg-12 carrossel">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <!--Botão para mudar a página do carrossel-->
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <!--Vídeo 1-->
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                        <iframe src="https://www.youtube.com/embed/B0s02QhNmRg" class="videos_carrossel"
+                                            frameborder="0" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                        <!--Texto 1-->
+                                        <h2>Soul</h2>
+                                        <p> Sinopse: Joe é um professor de música do ensino médio apaixonado por jazz,
+                                            cuja vida
+                                            não foi como ele esperava. Quando ele viaja a uma outra realidade para
+                                            ajudar outra pessoa a encontrar sua paixão, ele descobre o verdadeiro
+                                            sentido da vida.
+                                        </p>
+                                        <p>
+                                            Diretores: Pete Docter e Kemp Powers. Roteiristas: Pete Docter, Mike Jones e
+                                            Kemp Powers. Estreia: 2020
+                                        </p>
+                                        <p>Elenco:</p>
+                                        <p>Jamie Foxx | Tina Rey | Questlove | Angela Basset</p>
+                                        <p>Avaliação</p>
+                                        <p>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                        <!--Vídeo 2-->
+                                        <iframe src="https://www.youtube.com/embed/r3jPVVvpQOA" class="videos_carrossel"
+                                            frameborder="0" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                        <!--Texto 2-->
+                                        <h2>Mais uma Rodada.</h2>
+                                        <p>
+                                            Sinopse: Para alegrar um amigo em crise, um grupo de professores decide
+                                            testar a ousada teoria de que serão mais felizes e bem-sucedidos vivendo com
+                                            um pouco de álcool no sangue.
+                                        </p>
+                                        <p>Diretor: Thomas Vinterberg. | Roteiristas: Thomas Vinterberg e Tobias
+                                            Lindholm | Estreia: 2020</p>
+                                        <p>Elenco:</p>
+                                        <p>Madds Mikkelsen | Thomas Bo Larsen | Lars Ranthe | Magnus Millang</p>
+                                        <p>Avaliação:</p>
+                                        <p>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                        <!--Vídeo 3-->
+                                        <iframe src="https://www.youtube.com/embed/jt3-3LtSj6c" class="videos_carrossel"
+                                            frameborder="0" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                        <!--Texto 3-->
+                                        <h2>Liga da Justiça de Zack Snyder.</h2>
+                                        <p>Sinopse: Determinado em garantir que o último sacrifício de Superman não foi
+                                            em vão,
+                                            Bruce Wayne se junta a Diana Prince com planos de recrutar uma equipe de
+                                            metahumanos para proteger o mundo de uma ameaça de proporções catastróficas.
+                                        </p>
+                                        <p>Diretor: Zack Snyder | Roteiristas: Zack Snyder, Chris Terrio e Will Beall |
+                                            Estreia: 2021</p>
+                                        <p>Elenco:</p>
+                                        <p>Ben Affleck | Henry Cavill | Gal Gadot | Jason Momoa | Ezra Miller | Ray
+                                            Fisher</p>
+                                        <p>Avaliação:</p>
+                                        <p>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                            <i class="far fa-star"></i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Fim do carrossel-->
+        </div>
+
+
+        <!--Inicio cards em destaque-->
+        <div class="container em_destaque">
+
+            <div class="row destaque_titulo">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                    <h1>Em destaque.</h1>
+                    <!--Titulo em destaque-->
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                    <!--Botão dropdown destaque-->
+                    <button class="btn btn-secondary dropdown-toggle destaque_botao" type="button"
+                        id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Filtrar
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Ação</a>
+                        <a class="dropdown-item" href="#">Terror</a>
+                        <a class="dropdown-item" href="#">Romance</a>
+                        <a class="dropdown-item" href="#">Comédia</a>
+                    </div>
+                </div>
+            </div>
+            <!--Poster em desque-->
+            <div class="row destaque_cards">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-3">
+                    <!--Imagem 1-->
+                    <img src="imagens/parasite_poster.jpeg" alt="">
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-4 col-lg-3">
+                    <!--Imagem 2-->
+                    <img src="imagens/poster_sound.jpg" alt="">
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-4 col-lg-3">
+                    <!--Imagem 3-->
+                    <img src="imagens/poster_spider.jpg" alt="">
+                </div>
+
+                <div class="col-12 col-sm-12 col-lg-3 quarto_poster">
+                    <!--Imagem 4-->
+                    <img src="imagens/poster_vast.jpg" alt="">
+                </div>
+            </div>
+            <!--Botão carregar mais em destaque-->
+            <div class="botao_fim_destaque">
+                <button type="button" class="btn btn-primary btn-lg">+ Carregar mais</button>
+            </div>
+        </div>
+        <!--Fim cards em destaque-->
+
+        <!--Inicio avaliações-->
+        <div class="container avaliacoes">
+            <div class="row titulo_avaliacoes">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                    <h1>Últimas avaliacões.</h1>
+                    <!--Título 1-->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-3 cards_avaliacoes">
+                    <!--Avaliação 1-->
+                    <div class="card mx-auto pessoa_1" style="width: 18rem;">
+                        <img src="imagens/photo-card.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title">Walter</h4>
+                            <h5 class="card-text">Tenet</h5>
+                            <p class="card-text">Metade do diálogo é expositivo, enquanto a trilha sonora se
+                                consiste em
+                                "BRRRMRMR". Você vai se esquecer de tudo algumas horas depois de assistir.
+                            </p>
+                            <p>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-3 cards_avaliacoes">
+                    <!--Avaliação 2-->
+                    <div class="card mx-auto pessoa_2" style="width: 18rem;">
+                        <img src="imagens/photo-card.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title">Walter</h4>
+                            <h5 class="card-text">Godzilla vs. Kong</h5>
+                            <p class="card-text">A ação é bem coreografada, mas o filme é desnecessariamente longo.
+                                Alguns arcos poderiam ser facilmente cortados, tipo o da Millie.
+                            </p>
+                            <p>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-3 cards_avaliacoes">
+                    <!--Avaliação 3-->
+                    <div class="card pessoa_3" style="width: 18rem;">
+                        <img src="imagens/photo-card.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title">Walter</h4>
+                            <h5 class="card-title">Liga da Justiça.</h5>
+                            <p class="card-text">O filme é surpreendentemente bom, principalmente quando colocado em
+                                contraste com a primeira versão. Mas, a duração do filme ainda incomoda.
+                            </p>
+                            <p>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-lg-3 cards_avaliacoes">
+                    <!--Avaliação 4-->
+                    <div class="card pessoa_4" style="width: 18rem;">
+                        <img src="imagens/photo-card.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title">Walter White</h4>
+                            <h5 class="card-title">Breaking Bad: El Camino</h5>
+                            <p class="card-text">Esse filme é bom? "You're goddamn right". Foi muito satisfatório
+                                ver o Jesse uma última vez, além de alguns outros personagens surpresas.
+                            </p>
+                            <p>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row botao_fim_avaliacao">
+                <!--Botão carregar mais avaliacao-->
+                <div class="col-12">
+                    <button type="button" class="btn btn-primary btn-lg">+ Carregar mais</button>
+                </div>
+            </div>
+        </div>
+        <!--Fim avaliações-->
+
+        <!--Inicio entrevista-->
+        <div class="container-fluid entrevistas">
+            <div class="row entrevistas_titulo">
+                <div class="col-12">
+                    <h1>Entrevistas e making offs</h1>
+                    <!--Título entrevistas e making offs-->
+                </div>
+            </div>
+
+            <div class="row entrevistas_cards">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 entrevista_1">
+                    <div>
+                        <iframe src="https://www.youtube.com/embed/Vr9rbbbHIMk" class="videos_entrevistas"
+                            frameborder="0" allowfullscreen></iframe>
+                        <!--Video 1-->
+                    </div>
+                    <div>
+                        <h2 class="titulo_entrevistas">Vingadores: Ultimato.</h2>
+                        <!--Texto 1-->
+                        <p class="Texto_entrevistas">
+                            Diretores: Anthony Russo e Anthony Russo.
+                        </p>
+                        <p class="Texto_entrevistas">
+                            Roteiristas: Christopher Markus e Stephen McFeely. | Estreia: 2019.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 entrevista_2">
+                    <div>
+                        <iframe src="https://www.youtube.com/embed/mD8o_aRXZ08" class="videos_entrevistas"
+                            frameborder="0" allowfullscreen></iframe>
+                        <!--Vídeo 2-->
+                    </div>
+                    <div>
+                        <h2 class="titulo_entrevistas">Um Lugar Silêncioso: Parte 2.</h2>
+                        <!--Texto 2-->
+                        <p class="Texto_entrevistas">
+                            Diretor: John Krasinski.
+                        </p>
+                        <p class="Texto_entrevistas">
+                            Roteirista: John Krasinski. | Estreia: 2020.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-lg-4 entrevista_3">
+                    <div>
+                        <iframe src="https://www.youtube.com/embed/0HEvyxNJRks" class="videos_entrevistas"
+                            frameborder="0" allowfullscreen></iframe>
+                        <!--Vídeo 3-->
+                    </div>
+                    <div>
+                        <h2 class="titulo_entrevistas">Aquaman</h2>
+                        <!--Texto 3-->
+                        <p class="Texto_entrevistas">
+                            Diretor: James Wan.
+                        </p>
+                        <p class="Texto_entrevistas">
+                            Roteirista: James Wan. | Estreia: 2018.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Fim entrevista-->
+
+        <!--Inicio novidade, sobre, etc.-->
+        <div class="container-fluid novidades_sobre">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <h1>Novidades</h1>
+                        </div>
+                    </div>
+                    <div class="row materias">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                            <img class="imagens_novidades" src="imagens/shang-chi.jpg" alt="">
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-8 texto_materia">
+                            <h2>Conheça o mais novo herói da Marvel!</h2>
+                            <p>No dia 19/04 a Marvel divulgou o trailer de sua mais nova empreitada no universo
+                                cinematográfico. Shang Chi contará a histrória do personagem de mesmo nome, que surgiu
+                                nos quadrinhos na decáda de 70.</p>
+                        </div>
+                    </div>
+                    <div class="row materias">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                            <img class="imagens_novidades" src="imagens/invocacao-do-mal-3.jpg" alt="">
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-8 texto_materia">
+                            <h2>É divulgado o trailer de Invocação do Mal 3.</h2>
+                            <p>O mais novo filme do universo de invicação do mal promete muitos mistérios e sustos.
+                                Dessa vez, o caso abordado é o de Arne Cheyenne Johnson, o primeiro réu a usar uma
+                                suposta possessão demôniaca como defesa em uma corte americana.</p>
+                        </div>
+                    </div>
+                    <div class="row materia_3">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                            <img class="imagens_novidades" src="imagens/spider-man-tobey-maguire.jpg" alt="">
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-8 texto_materia">
+                            <h2>Homem-Aranha de Tobey de volta às telas?</h2>
+                            <p>Em uma entrevista, realizada no dia 16/04, Alfred Molina, Dr.Octopus da trilogia original
+                                do Homem-Aranha, confirmou sua participação no mais novo filme do Aranha de Tom Holland,
+                                também dando a entender que a história aconteceria imediatamente após o final do segundo
+                                filme, de 2004.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <h1>Sobre</h1>
+                            <p>Esse portal de notícias foi feito por Matheus Marcolino, aluno do curso de Ciência da
+                                Computação da PUC-Minas, como uma atividade da matéria de desenvolvimento de interfaces
+                                web.</p>
+                        </div>
+                    </div>
+                    <div class="row equipe">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <h1>Editorial.</h1>
+                            <p><i class="fas fa-user-alt fa-lg"></i> Redação: Matheus Marcolino</p>
+                            <p><i class="fas fa-user-alt fa-lg"></i> Pesquisa: Matheus Marcolino</p>
+                            <p><i class="fas fa-user-alt fa-lg"></i> Gerente Geral: Matheus Marcolino</p>
+                        </div>
+                    </div>
+                    <div class="row redes">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                            <h1>Redes Sociais.</h1>
+                            <p><i class="fab fa-instagram fa-3x"></i> <i class="fab fa-twitter fa-3x"></i> <i class="fab fa-facebook fa-3x"></i> <i class="fab fa-reddit fa-3x"></i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="container-fluid">
+        <p>Copyright 2021 - Diciplina de Desenvolvimento de interfaces Web - ICEI PUC MINAS</p>
+    </footer>
+
+    <!--Java-Script Bootstrap.-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
